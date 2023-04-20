@@ -19,12 +19,24 @@
 ## 구성도
 
 ![image](https://user-images.githubusercontent.com/63902992/143848772-c58e3f6e-cc04-4de9-ac54-977920ffc9b4.png)
+![lovedata](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/lovedata.png)
+
+## 기능 설명 PPT
+
+[ppt](https://github.com/mon0mon/LoveData_Public/tree/main/pptx)
 
 ## mon0mon(이민기)
 
-JPA\
-QurDSL\
-GSON\
+### 사용한 개발 스택
+- JPA
+- QurDSL
+- GSON
+
+### 사용한 API
+- [행정안전부 주소 API](https://business.juso.go.kr/addrlink/openApi/apiExprn.do)
+- [T Map API](https://tmapapi.sktelecom.com/)
+
+### 구현 사항
 
 1. 로그인
 
@@ -33,9 +45,12 @@ GSON\
 
     2. SNS 회원가입(카카오, 네이버)을 한 유저 로그인
 
+        ![카카오 로그인](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%A1%9C%EA%B7%B8%EC%9D%B8.JPG)\
+        ![카카오 로그인2](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%A1%9C%EA%B7%B8%EC%9D%B8%202.JPG)\
+
         - 카카오 로그인 페이지로 이동
         
-        [OAuthController](com.project.love_data.controller.OAuthController)
+        [OAuthController](https://github.com/mon0mon/LoveData_Public/blob/main/src/main/java/com/project/love_data/controller/OAuthController.java)
         ```java
         @GetMapping(value = "/login_kakao")
         public String kakaoLogin(
@@ -51,7 +66,7 @@ GSON\
 
         - 토큰 정보 확인
         
-        [OAuthController](https://github.com/mon0mon/LOVEDATA/blob/main/src/main/java/com/project/love_data/controller/OAuthController.java)
+        [OAuthController](https://github.com/mon0mon/LoveData_Public/blob/main/src/main/java/com/project/love_data/controller/OAuthController.java)
 
         ```java
         @RequestMapping(value = "/login_kakao/process")
@@ -90,13 +105,13 @@ GSON\
 
     1. 추천 장소
 
-    ![추천장소]()
+    ![추천장소](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%B6%94%EC%B2%9C%EC%9E%A5%EC%86%8C.JPG)
 
     - 등록된 장소들 가운데 사람들이 가장 많이 보고 추천한 순으로 정렬
 
     - 이름과 위치, 태그를 통한 검색
 
-    [LocationService](https://github.com/mon0mon/LOVEDATA/blob/main/src/main/java/com/project/love_data/businessLogic/service/LocationService.java)
+    [LocationService](https://github.com/mon0mon/LoveData_Public/blob/main/src/main/java/com/project/love_data/businessLogic/service/LocationService.java)
 
     ```java
     public PageResultDTO<LocationDTO, Location> getList(PageRequestDTO requestDTO) {
@@ -140,11 +155,11 @@ GSON\
 
     2. 장소 등록
 
-    ![장소등록]()
+    ![장소등록](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%9E%A5%EC%86%8C%EB%93%B1%EB%A1%9D.JPG)
 
     - 로그인 후 장소 등록 가능
 
-    [LocationController](https://github.com/mon0mon/LOVEDATA/blob/main/src/main/java/com/project/love_data/controller/service/LocationController.java)
+    [LocationController](https://github.com/mon0mon/LoveData_Public/blob/main/src/main/java/com/project/love_data/controller/service/LocationController.java)
     
     등록페이지에서 들어온 정보를 바탕으로 장소 등록 진행
     ```java
@@ -167,11 +182,11 @@ GSON\
 
     3. 장소 편집
 
-    ![장소 수정]()
+    ![장소 수정](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%9E%A5%EC%86%8C%EC%88%98%EC%A0%95.JPG)
 
     - 본인이 등록한 장소이거나 관리자일 경우 수정가능
 
-    [LocationController](https://github.com/mon0mon/LOVEDATA/blob/main/src/main/java/com/project/love_data/controller/service/LocationController.java)
+    [LocationController](https://github.com/mon0mon/LoveData_Public/blob/main/src/main/java/com/project/love_data/controller/service/LocationController.java)
 
     ```java
         @PostMapping("/service/loc_edit/regData")
@@ -196,23 +211,28 @@ GSON\
 
     4. 지역별 장소
 
-    ![지역별 장소]()
-
     - 등록된 장소 중에 지역별 장소만을 골라서 보는 메뉴
 
+    5. 장소 상세
+
+    ![장소상세](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%9E%A5%EC%86%8C%EC%83%81%EC%84%B8.JPG)
+
+    - 장소에 대한 자세한 정보를 알 수 있는 페이지
+
+    - 이용자는 댓글이나 좋아요, 신고 등의 기능을 사용할 수 있음
     
 
 3. 코스
 
     1. 추천 코스
 
-    ![추천 코스]()
+    ![추천 코스](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%B6%94%EC%B2%9C%EC%BD%94%EC%8A%A4.JPG)
 
     - 추천 장소와 동일한 기능
 
     2. 코스 등록
 
-    ![코스 등록]()
+    ![코스 등록](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%9E%A5%EC%86%8C%EB%93%B1%EB%A1%9D.JPG)
 
     - 등록된 장소를 기반으로 코스를 등록
 
@@ -242,6 +262,39 @@ GSON\
 
     3. 코스 편집
 
+    ![코스수정](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%BD%94%EC%8A%A4%EC%88%98%EC%A0%95.JPG)
+
     - 장소 편집과 동일한 기능
 
-    
+    4. 코스 상세
+
+    ![코스상세](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%BD%94%EC%8A%A4%EC%83%81%EC%84%B8.JPG)\
+    ![코스상세2_경로](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%BD%94%EC%8A%A4%EC%83%81%EC%84%B82_%EA%B2%BD%EB%A1%9C.JPG)
+
+    - 장소 상세와 비슷한 기능
+
+    - 해당 코스를 구성하는 장소를 확인하고, 해당 장소들을 이동할 때 대략적인 경로를 확인 할 수 있음
+
+4. 어드민
+
+    1. 어드민 대시보드
+
+    ![어드민 대시보드](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C.png)\
+    ![어드민 대시보드2](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_2.png)\
+    ![어드민 대시보드3](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_3.png)\
+    ![어드민 대시보드4](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_4.png)
+
+    - 등록된 사용자 게시글의 전반적인 정보들을 알 수 있는 대시보드
+음
+    - 장소, 코스, 댓글, 리뷰 등 사용자들의 모든 활동을 볼 수 있음
+
+    2. 어드민 신고센터
+
+    ![어드민 신고센터](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EC%8B%A0%EA%B3%A0%EC%84%BC%ED%84%B0.jpg)\
+    ![어드민 신고센터 2](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EC%8B%A0%EA%B3%A0%EC%84%BC%ED%84%B0%202.png)\
+    ![어드민 신고센터 3](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EC%8B%A0%EA%B3%A0%EC%84%BC%ED%84%B0%203.jpg)\
+    ![어드민 신고센터 4](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EC%8B%A0%EA%B3%A0%EC%84%BC%ED%84%B0%204.png)
+
+    - 사용자들이 신고한 전반적인 활동에 대해서 처리하는 곳
+
+    - 처리 사유, 정지, 삭제 등으로 처리 할 수 있음
