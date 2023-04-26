@@ -19,7 +19,7 @@
 ## 구성도
 
 ![image](https://user-images.githubusercontent.com/63902992/143848772-c58e3f6e-cc04-4de9-ac54-977920ffc9b4.png)
-![lovedata](https://raw.githubusercontent.com/mon0mon/LoveData_Public/main/descImg/lovedata.png)
+![lovedata](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/descImg/lovedata.png)
 
 ## 기능 설명 PPT
 
