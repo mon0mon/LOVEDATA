@@ -279,7 +279,7 @@
 
     1. 어드민 대시보드
 
-    ![어드민 대시보드](https://raw.githubusercontent.com/mon0mon/LOVEDATAc/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C.png)\
+    ![어드민 대시보드](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C.png)\
     ![어드민 대시보드2](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_2.png)\
     ![어드민 대시보드3](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_3.png)\
     ![어드민 대시보드4](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/descImg/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EB%8C%80%EC%8B%9C%EB%B3%B4%EB%93%9C_4.png)
