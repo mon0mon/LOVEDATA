@@ -1,4 +1,4 @@
-![lovedata](https://github.com/mon0mon/LOVEDATA/assets/51530417/55a72a7c-a066-47c9-a723-4d0a8fb4802a)## 소개 및 사이트 링크
+## 소개 및 사이트 링크
 
 데이트 장소 및 코스 추천·공유 웹 서비스
 
