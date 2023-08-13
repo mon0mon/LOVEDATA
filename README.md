@@ -1,4 +1,4 @@
-## 소개 및 사이트 링크
+![lovedata](https://github.com/mon0mon/LOVEDATA/assets/51530417/55a72a7c-a066-47c9-a723-4d0a8fb4802a)## 소개 및 사이트 링크
 
 데이트 장소 및 코스 추천·공유 웹 서비스
 
@@ -27,11 +27,11 @@
 
 ## 프로젝트 구성
 
-![ERD Diagram 여기](ERD Diagram 여기)
-![IA Diagram 여기](IA Diagram 여기)
-![FlowChart 여기](FlowChart 여기)
-![클래스 다이어그램 여기](클래스 다이어그램 여기)
-![WBS 여기](WBS 여기)
+![ERD Diagram](https://drive.google.com/file/d/1aOJYKiV6pMoz6RF5eKYITam1Y5Z9e9f_/view?usp=sharing)
+![IA Diagram ](https://drive.google.com/file/d/1QEZJmy2BxkT6XOYpMmyUhMdryPbDDQ7b/view?usp=sharing)
+![FlowChart](https://drive.google.com/file/d/1MUsYPMCStZSDgmHMwE8yCkBN-rdm6vEm/view?usp=sharing)
+![클래스 다이어그램](https://drive.google.com/file/d/1zjR1FIadGUcr5UDeV0BG5uDKHIyi04L2/view?usp=sharing)
+![WBS](https://drive.google.com/file/d/1inasoWl-ajXfppHKcu3I5lsaH6WDlobL/view?usp=sharing)
 
 ## mon0mon(이민기)
 
