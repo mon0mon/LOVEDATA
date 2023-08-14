@@ -27,11 +27,11 @@
 
 ## 프로젝트 구성
 
-![ERD Diagram](https://drive.google.com/file/d/1aOJYKiV6pMoz6RF5eKYITam1Y5Z9e9f_/view?usp=sharing)
-![IA Diagram ](https://drive.google.com/file/d/1QEZJmy2BxkT6XOYpMmyUhMdryPbDDQ7b/view?usp=sharing)
-![FlowChart](https://drive.google.com/file/d/1MUsYPMCStZSDgmHMwE8yCkBN-rdm6vEm/view?usp=sharing)
-![클래스 다이어그램](https://drive.google.com/file/d/1zjR1FIadGUcr5UDeV0BG5uDKHIyi04L2/view?usp=sharing)
-![WBS](https://drive.google.com/file/d/1inasoWl-ajXfppHKcu3I5lsaH6WDlobL/view?usp=sharing)
+![ERD Diagram](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/img/README.md/Love_Data_ERD.png)
+![IA Diagram ](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/img/README.md/LoveData_IA.png)
+![FlowChart](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/img/README.md/Love_Data_Flowchart.png)
+![클래스 다이어그램](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/img/README.md/Love_Data_%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.png)
+![WBS](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/img/README.md/wbs.png)
 
 ## mon0mon(이민기)
 
