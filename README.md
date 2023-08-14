@@ -28,10 +28,15 @@
 ## 프로젝트 구성
 
 ![ERD Diagram](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/img/README.md/Love_Data_ERD.png)
+- ERD 다이어그램
 ![IA Diagram ](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/img/README.md/LoveData_IA.png)
+- IA 다이어그램
 ![FlowChart](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/img/README.md/Love_Data_Flowchart.png)
+- 흐름도
 ![클래스 다이어그램](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/img/README.md/Love_Data_%ED%81%B4%EB%9E%98%EC%8A%A4%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.png)
+- 클래스 다이어그램
 ![WBS](https://raw.githubusercontent.com/mon0mon/LOVEDATA/main/img/README.md/wbs.png)
+- WBS
 
 ## mon0mon(이민기)
 
