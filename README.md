@@ -15,7 +15,6 @@
    <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
 </div>
 
-- [LOVEDATA 사이트](http://mon0mon.duckdns.org:18080/)
 - [Notion](https://scrawny-lizard-383.notion.site/LoveData-39e4f8ace2044240a7ae4f17b61e60e4?pvs=4)
 - [문서](https://drive.google.com/drive/folders/1FZcA_fte9l0v0sEVKyW0xwx6NE6h7uUe)
 
